@@ -16,11 +16,7 @@
 
 - [Live page](https://geekcrasher.github.io/messenger-login/)
 
-<br>
-
 ## **Preview in Tablet and Mobile screen**
-
-<br>
 
 <div align="center">
    <a href="assets/screenshots/mobile.png"><img src="assets/screenshots/mobile.png" height="600rem"></a>
