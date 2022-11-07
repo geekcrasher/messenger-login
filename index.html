@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="icon" type="512x512" href="assets/image/messenger.png">
+   <script src="main.js" defer></script>
+   <title>Messenger</title>
+   
+</head>
+<body>
+   
+   <main class="container">
+      <!-- navbar -->
+      <nav class="navbar">
+         <a href="index.html"><img src="assets/image/messenger.png" alt="messenger icon"></a>
+         <!-- burger menu -->
+         <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </a>
+         <div class="nav-items">
+            <ul>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">Desktop App</a></li>
+               <li><a href="#">Privacy & Safety</a></li>
+               <li><a href="#">For Developers</a></li>
+            </ul>
+         </div>
+      </nav>
+
+       <!-- login -->
+       <section class="login">
+         <section class="markup">
+            <h1>Hang out anytime, anywhere</h1>
+            <p>Messenger makes it easy and fun to stay close to your favorite people.</p>
+            <form>
+               <input type="email" name="username" placeholder="Email or phone number" required>
+               <input type="password" name="password" placeholder="Password" required >
+               <button><a href="#">Log in</a></button>
+               <a href="#">Forgot your password?</a>
+               <label for="keepMeLogIn">
+                  <input type="checkbox" name="keepLogin">
+                  Keep me signed in
+               </label>
+            </form>
+            <div class="download">
+               <a href="https://apps.apple.com/us/app/messenger/id1480068668?mt=12">
+                  <img src="assets/image/app-store.png" alt="app store">
+               </a>
+               <a href="https://apps.microsoft.com/store/detail/messenger/9WZDNCRF0083?hl=en-us&gl=us">
+                  <img src="assets/image/microsoft.png" alt="microsoft store">
+               </a>
+            </div>
+         </section>
+         <div class="preview">
+            <img src="assets/image/preview.png" alt="conversation">
+         </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+         <strong><p>&copy; Meta <span id="current-year"></span>.</p></strong>
+         <p>The Apple and Google Play logos are trademarks of their respective owners.</p>
+         <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li>
+               <select name="languages" id="languages"></select>
+            </li>
+            <li>
+               <img src="assets/image/meta-logo.png" alt="meta logo">
+            </li>
+         </ul>
+      </footer>
+   </main>
+
+</body>
+</html>
