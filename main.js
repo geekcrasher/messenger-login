@@ -1,4 +1,3 @@
-
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('nav-items')[0]
 
@@ -9,7 +8,7 @@ toggleButton.addEventListener('click', () => {
 
 // To automatically update the year in footer 
 const yearFooter = document.querySelector('#current-year')
-yearFooter.innerHTML = new Date().getFullYear()
+yearFooter.innerText = new Date().getFullYear()
 
 
 // Language list
@@ -51,3 +50,4 @@ function languages_dropdown(user_language_code='') {
 }
 
 languages_dropdown("en-US"); // user language code for selected option
+
