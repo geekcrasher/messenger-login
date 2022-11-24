@@ -1,0 +1,23 @@
+@mixin displayFlex() { display: flex; }
+@mixin alignCenter() { align-items: center; }
+@mixin justifyCenter() { justify-content: center; }
+
+
+section .preview img, 
+footer, 
+footer ul li {
+   @include displayFlex();
+   @include alignCenter();
+}
+
+.login {
+   @include justifyCenter();
+}
+
+nav, 
+nav div, 
+nav ul, 
+.markup div, 
+footer ul {
+   @include displayFlex();
+}
