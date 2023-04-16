@@ -23,7 +23,7 @@
 
 ## **Link**
 
-- [Live page](https://geekcrasher.github.io/messenger-login/)
+- [Live page](https://messenger-login.vercel.app/)
 
 <p align="right"><a href='#top'>(Back to top)</a></p>
 
